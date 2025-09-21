@@ -7,11 +7,11 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Upload & Analyze", href: "/upload" },
-    { label: "Deal Notes & Benchmarking", href: "/deal-notes" },
+    { label: "Analyze", href: "/upload" },
+    { label: "Benchmarking", href: "/deal-notes" },
     { label: "Collaboration", href: "/collaboration" },
-    { label: "Demo / Features", href: "/demo" },
-    { label: "Contact / Get in Touch", href: "/contact" },
+    { label: "Demo", href: "/demo" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
